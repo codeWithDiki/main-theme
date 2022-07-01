@@ -1,7 +1,14 @@
 @extends('layouts.base')
 
 
-@section('favicon', 'images/logo-colored.png')
+@section('favicon', theme_asset('images/logo-colored.png'))
+
+@push('google-ads')
+    @if(config('app.env', 'local') == 'production')
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4713844313996330"
+        crossorigin="anonymous"></script>
+    @endif
+@endpush
 
 <!-- Header Section -->
 @section('header')
