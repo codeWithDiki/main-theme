@@ -127,8 +127,19 @@
 <!-- End Body Section -->
 
 <!-- Footer Section -->
-@section('footer')
+@section('google-analytics')
 
+    @if(config('app.env', 'local') == 'production')
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QW7DLZ6R71"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QW7DLZ6R71');
+        </script>
+    @endif
 
 @endsection
 <!-- End Footer Section -->
