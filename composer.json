@@ -1,0 +1,19 @@
+{
+    "name": "codewithdiki/main-theme",
+    "description": "Main theme for codewithdiki.com",
+    "type": "laravel-theme",
+    "version": "1",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Diki Akbar Asyidiq",
+            "email": "diki.akbar1304@gmail.com"
+        }
+    ],
+    "extra": {
+        "theme": {
+            "parent": "",
+            "active": true
+        }
+    }
+}
