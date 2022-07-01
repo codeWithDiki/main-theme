@@ -1,0 +1,12 @@
+@import '../../../../../vendor/filament/forms/dist/module.esm.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-gradient {
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }

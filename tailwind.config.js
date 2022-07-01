@@ -5,9 +5,10 @@ module.exports = {
     darkMode: 'class',
     content: [
         './resources/**/*.blade.php',
-        './vendor/filament/**/*.blade.php',
-        './vendor/usernotnull/tall-toasts/config/**/*.php',
-        './vendor/usernotnull/tall-toasts/resources/views/**/*.blade.php',
+        '../../../resources/**/*.blade.php',
+        '../../../vendor/filament/**/*.blade.php',
+        '../../../vendor/usernotnull/tall-toasts/config/**/*.php',
+        '../../../vendor/usernotnull/tall-toasts/resources/views/**/*.blade.php',
     ],
     theme: {
         extend: {
