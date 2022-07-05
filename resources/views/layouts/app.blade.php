@@ -7,6 +7,15 @@
     @if(config('app.env', 'local') == 'production')
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4713844313996330"
         crossorigin="anonymous"></script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-231266322-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-231266322-1');
+        </script>
     @endif
 @endpush
 
