@@ -13,6 +13,17 @@
             <div class="py-3 rounded-xl border bg-white">
                 <div class="prose lg:prose-xl mx-auto px-4">
                     {!! $post->content !!}
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4713844313996330"
+                        crossorigin="anonymous"></script>
+                    <ins class="adsbygoogle"
+                        style="display:block; text-align:center;"
+                        data-ad-layout="in-article"
+                        data-ad-format="fluid"
+                        data-ad-client="ca-pub-4713844313996330"
+                        data-ad-slot="5920396500"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
                 </div>
             </div>
             <div class="flex justify-end text-primary-500 px-4">
@@ -20,17 +31,6 @@
                     @svg('heroicon-o-clock', 'w-5 h-5')
                     <div class="text-sm font-bold">
                         {{ $post->published_at?->format('d/m/Y H:i') }}
-                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4713844313996330"
-                            crossorigin="anonymous"></script>
-                        <ins class="adsbygoogle"
-                            style="display:block; text-align:center;"
-                            data-ad-layout="in-article"
-                            data-ad-format="fluid"
-                            data-ad-client="ca-pub-4713844313996330"
-                            data-ad-slot="5920396500"></ins>
-                        <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
                     </div>
                 </h1>
             </div>
