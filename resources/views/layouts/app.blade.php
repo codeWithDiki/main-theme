@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 
-@section('favicon', theme_asset('images/logo-colored.png'))
+@section('favicon', theme_asset('img/logo.jpg'))
 
 @push('google-ads')
     @if(config('app.env', 'local') == 'production')
