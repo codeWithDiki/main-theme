@@ -15,11 +15,9 @@ module.exports = {
             colors: {
                 danger: colors.rose,
                 primary: {
-                    // DEFAULT : "#5a49e3",
-                    // ... colors.violet,
-                    // "500" : "#5a49e3"
-                    DEFAULT:colors.red[500],
-                    ... colors.red
+                    DEFAULT : "#5a49e3",
+                    ... colors.violet,
+                    "500" : "#5a49e3"
                 },
                 warning: colors.amber,
                 success: colors.emerald

@@ -55,7 +55,7 @@
 
 @section('hero')
     <figure class="w-full mt-20 relative">
-        <img src="@yield('hero-banner', theme_asset('img/bendera-merah-putih.webp'))" 
+        <img src="@yield('hero-banner', theme_asset('images/banner.jpg'))" 
         class="w-full h-96 object-cover"
         alt="@yield('hero-banner-alt', 'Hero Banner')">
         <div class="absolute inset-0 flex flex-col justify-center items-center bg-gradient-to-r from-pink-400/50 via-purple-400/50 to-primary-500/50  gap-3 px-3 backdrop-blur-sm">
@@ -80,15 +80,6 @@
         </div>
         <div class="w-full lg:w-1/4 lg:py-5">
             <div class="sticky top-24 space-y-4">
-                <div class="px-2 py-3 rounded-lg bg-white border space-y-2" data-card-type="Short Profile Card">
-                    <figure class="gap-1 flex flex-col items-center">
-                        <img src="{{ theme_asset('img/bendera-merah-putih.webp') }}" alt="" class="w-24 h-24 rounded-full border-8 border-opacity-10 border-primary-500">
-                        <h1 class="text-lg text-center font-semibold">Dirgahayu Republik Indonesia</h1>
-                        <p class="text-primary-500 text-2xl font-bold">
-                            Ke-77
-                        </p>
-                    </figure>
-                </div>
                 <div class="px-2 py-3 rounded-lg bg-white border space-y-2" data-card-type="Short Profile Card">
                     <figure class="gap-1 flex flex-col items-center">
                         <img src="{{ theme_asset('images/profile.jpg') }}" alt="" class="w-24 h-24 rounded-full border-8 border-opacity-10 border-primary-500">
